@@ -6,7 +6,7 @@
   <link href="https://xanadu12138.github.io/atom.xml" rel="self"/>
   
   <link href="https://xanadu12138.github.io/"/>
-  <updated>2021-07-25T02:49:22.387Z</updated>
+  <updated>2021-07-27T09:58:21.314Z</updated>
   <id>https://xanadu12138.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Locally Aware Transformer</title>
+    <link href="https://xanadu12138.github.io/2021/07/27/la-transformer/"/>
+    <id>https://xanadu12138.github.io/2021/07/27/la-transformer/</id>
+    <published>2021-07-27T08:21:40.000Z</published>
+    <updated>2021-07-27T09:58:21.314Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Review-of-Person-Re-Identification-with-a-Locally-Aware-Transformer"><a href="#Review-of-Person-Re-Identification-with-a-Locally-Aware-Transformer" class="headerlink" title="Review of Person Re-Identification with a Locally Aware Transformer"></a>Review of Person Re-Identification with a Locally Aware Transformer</h2><h3 id="Summary-in-one-sentence"><a href="#Summary-in-one-sentence" class="headerlink" title="Summary in one sentence."></a>Summary in one sentence.</h3><p>Sharma et al. propused a locally aware transormer inspired by Parts-based Convolution Baseline(PCB) and ViT(Vision Transformer) as well as a fine-tunning strategy which further improve Re-ID accuracy</p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>Person Re-Identification task:</p><ul><li>Person Re-ID task includes object dectation and image retrival tasks in earily researches. It separates the tasks and focuses on finding the most similar images in gallery according to the given querry image in recent researches.</li><li>I sammarized some common approaches in my last <a href="https://xanadu12138.github.io/2021/07/21/Re-Id/">post</a>, you can check it before going on.</li><li>Extant problem: Exiting approaches only focus on the classification token, and local tokens which are also outputs of the transformer encoder are able to improve the performance of many computer vision tasks.</li></ul><p>The LA-transformer utilize local tokens as an enhanced feature representation of the original image. Inspired by the PCB which partitions the feature vector into six vertical regions and constructs an ensemble of regional classifiers with a voting strategy to determine the predicted class label, LA-transformer adopt a PCB-like strategy to fine-tunning on person Re-Id. A limitation of PCB is that each regional classifier ignores the global information which is also very important for recognition and identification. Thus, LA-transformer combines the CLS token and local token to improve performance.</p><h2 id="Architecture-of-LA-transformer"><a href="#Architecture-of-LA-transformer" class="headerlink" title="Architecture of LA-transformer"></a>Architecture of LA-transformer</h2><p><img src="./top.png" alt="img"><br>The backbone ViT excludes MLP Head and classifier are same as the original ViT. The novel Locally Aware Network is attached on the backbone network. As the image illustrates that Local feature plus global CLS token to form Globally Enhanced Local Tokens and seprates them into 14 parts. After average pooling, each part of GELT are feed to an independed classifier as PCB’s voting strategy. Eventually, using softmax loss to find the optimal feature representation of images.</p><h2 id="Fine-tunning-strategy"><a href="#Fine-tunning-strategy" class="headerlink" title="Fine-tunning strategy."></a>Fine-tunning strategy.</h2><p>Person re-ID datasets are known for their small size and training a transformer on these datasets can quickly lead to overfitting. ViT was pre-trained on ImageNet, and then fine-tuned on person re-ID datasets.</p><p>In blockwise fine-tuning, all transformer blocks are frozen in the start<br>except for the bottleneck model. After every t epochs (where t is a hyper-parameter), one additional transformer encoder block is unfrozen and the learning rate is reduced as described by algorithm1. The learning rate decay helps in reducing the gradient flow in the subsequent layers hence prevent abrupt weight updates.<br><img src="./alg1.png" alt="img"></p><h2 id="Test-architecture"><a href="#Test-architecture" class="headerlink" title="Test architecture"></a>Test architecture</h2><p>In the test period, remove the classifiers and use the GELT as a image’s feature representation. Given a querry image, search the most similar images in gallery by the features learned by models.</p>]]></content>
+    
+    
+    <summary type="html">Reproduction of Person Re-Identification with a Locally Aware Transformer.</summary>
+    
+    
+    
+    <category term="Note" scheme="https://xanadu12138.github.io/categories/Note/"/>
+    
+    
+    <category term="Re-Id" scheme="https://xanadu12138.github.io/tags/Re-Id/"/>
+    
+    <category term="Deep learning" scheme="https://xanadu12138.github.io/tags/Deep-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>Summary of approaches used in person Re-Id task.(part 1)</title>
