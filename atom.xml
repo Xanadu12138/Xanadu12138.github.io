@@ -6,7 +6,7 @@
   <link href="https://xanadu12138.github.io/atom.xml" rel="self"/>
   
   <link href="https://xanadu12138.github.io/"/>
-  <updated>2021-07-27T09:58:21.314Z</updated>
+  <updated>2021-08-13T04:57:44.909Z</updated>
   <id>https://xanadu12138.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Thoughts about deeplearning</title>
+    <link href="https://xanadu12138.github.io/2021/08/13/thoughts-about-deeplearning/"/>
+    <id>https://xanadu12138.github.io/2021/08/13/thoughts-about-deeplearning/</id>
+    <published>2021-08-13T03:03:32.000Z</published>
+    <updated>2021-08-13T04:57:44.909Z</updated>
+    
+    <content type="html"><![CDATA[<p>Deep learning is quite popular in computer science. Some think deep learning model is a black box. However, I think some part of deel learning model can be explicitly explained.</p><h1>What is deep learning?</h1><p><img src="./MLvsDL.png" alt="MLvsDL"><br>Compared with conventional machine learning, deep learning models have much more complex network architecture and act more like human. Why am I say that the deep learning models are anthropoid? Deep learning models are unlike conventional machine learning, which is fed by handcraft features and apply mathematical algorithms to cluster or classfy the features. Deep learning models are able to learn what feature is vital for the specific task and some method such as pretraining, fine-tune strategy, mutiple loss fuction etc. to improve the models’ capabilities of learning and take advanteges of the features.</p><h2 id="Process-of-deep-learning">Process of deep learning</h2><p>In my opinion, deep learning models act like <strong>human’s neural network</strong>. It is why the deep learning is called neural network as well. In one sentance, deep learning model takes input and project the input to a high dimensional feature in a learnt way and loss function tell models how to learn project the input. It is analogous to a children learn how to recognize the world. Taking a simple problem as a example, classfy the numbers, the nerual network takes number’s pictures and output what it is. In the training period, the softmax loss function tell the model how to adjust the weight based on the output that model gives. The parents are like loss function, telling children whether they are right or wrong, and help them correct the answer.</p><h2 id="Thoughts-about-convolution-loss-and-architectures">Thoughts about convolution, loss and architectures.</h2><h3 id="Convolution">Convolution</h3><p>(Under construstion)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Deep learning is quite popular in computer science. Some think deep learning model is a black box. However, I think some part of deel lea</summary>
+      
+    
+    
+    
+    <category term="Note" scheme="https://xanadu12138.github.io/categories/Note/"/>
+    
+    
+    <category term="Deep learning" scheme="https://xanadu12138.github.io/tags/Deep-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>Locally Aware Transformer</title>
