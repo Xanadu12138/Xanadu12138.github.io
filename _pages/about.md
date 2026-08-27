@@ -8,8 +8,6 @@ subtitle: >
 
 profile:
   align: right
-  more_info: >
-    <p>Clemson, SC, USA</p>
 
 selected_papers: true
 social: true
