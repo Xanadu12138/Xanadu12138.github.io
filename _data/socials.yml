@@ -1,0 +1,7 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: yucong.dai@clemson.edu # your email address (update if needed)
+github_username: xanadu12138
+scholar_userid: LnUaek0AAAAJ # your Google Scholar ID
+rss_icon: false

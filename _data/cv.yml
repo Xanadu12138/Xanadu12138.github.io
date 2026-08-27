@@ -1,0 +1,95 @@
+cv:
+  name: Yucong Dai
+  label: PhD Candidate in Computer Science
+  email: yucong.dai@clemson.edu
+  location: Clemson, SC
+  image: ""
+  summary: Final-year PhD candidate at Clemson University working on trustworthy AI, algorithmic fairness, causality, and robust machine learning.
+
+  social_networks:
+    - network: GitHub
+      username: xanadu12138
+    - network: Google Scholar
+      username: LnUaek0AAAAJ
+
+  sections:
+    Education:
+      - institution: Clemson University
+        location: Clemson, SC, USA
+        url: https://www.clemson.edu/
+        area: Computer Science
+        studyType: PhD
+        start_date: 2021
+        end_date: present
+        highlights:
+          - Advisor: Prof. Yongkai Wu
+          - Research on trustworthy AI, fairness, and causality
+
+      - institution: Wuhan University of Technology
+        location: Wuhan, China
+        area: Software Engineering
+        studyType: BEng
+        end_date: 2021
+        highlights:
+          - Undergraduate research in computer vision and deep learning
+
+    Research Interests:
+      - company: Trustworthy AI
+        position: ""
+        highlights:
+          - Algorithmic fairness
+          - Causal inference and counterfactual fairness
+          - Robust learning under distribution shift and weak supervision
+          - Efficient and fair model compression
+
+    Selected Publications:
+      - title: "SHED: Shapley-Based Automated Dataset Refinement for Instruction Fine-Tuning"
+        authors:
+          - Ying He
+          - Zhe Wang
+          - Zhe Shen
+          - Guanhua Sun
+          - Yucong Dai
+          - Yongkai Wu
+          - Hao Wang
+          - Ang Li
+        publisher: NeurIPS 2024
+        releaseDate: 2024
+
+      - title: "Towards Counterfactual Fairness through Auxiliary Variables"
+        authors:
+          - Boyu Tian
+          - Zhe Wang
+          - Shuo He
+          - Wei Ye
+          - Guanhua Sun
+          - Yucong Dai
+          - Yongkai Wu
+          - Ang Li
+        publisher: ICLR 2025
+        releaseDate: 2025
+
+      - title: "Fair Weak-Supervised Learning: A Multiple-Instance Learning Approach"
+        authors:
+          - Yucong Dai
+          - Xuan Jiang
+          - Yue Hu
+          - Liang Zhang
+          - Yongkai Wu
+        publisher: IJCNN 2024
+        releaseDate: 2024
+
+      - title: "Fair Selection through Kernel Density Estimation"
+        authors:
+          - Xuan Jiang
+          - Yucong Dai
+          - Yongkai Wu
+        publisher: IJCNN 2023
+        releaseDate: 2023
+
+    Skills:
+      - name: Research Areas
+        keywords: "Trustworthy AI, Fairness, Causality, Deep Learning, Graph Learning, Weak Supervision"
+
+      - name: Tools
+        keywords: "Python, PyTorch, LaTeX, Git"
