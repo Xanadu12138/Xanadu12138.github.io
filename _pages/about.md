@@ -14,7 +14,7 @@ social: true
 
 announcements:
   enabled: true
-  title: papers accepted
+  title: News
   scrollable: true
   limit: 5
 
