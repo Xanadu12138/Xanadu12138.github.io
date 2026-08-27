@@ -9,7 +9,6 @@ subtitle: >
 profile:
   align: right
   more_info: >
-    <p>Clemson University</p>
     <p>Clemson, SC, USA</p>
 
 selected_papers: true
@@ -17,6 +16,7 @@ social: true
 
 announcements:
   enabled: true
+  title: papers accepted
   scrollable: true
   limit: 5
 
