@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://xanadu12138.github.io/sitemap.xml
