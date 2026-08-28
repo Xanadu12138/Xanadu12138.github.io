@@ -3,34 +3,55 @@
     url: https://sites.google.com/site/yongkaiwu/
 
 "jiang":
-  - firstname: ["Xuan", "X."]
+  - firstname: ["Xiangyu", "X."]
 
 "zhang":
-  - firstname: ["Liang", "L."]
+  - firstname: ["Lu", "L."]
 
 "luo":
   - firstname: ["Feng", "F."]
 
+"chowdhury":
+  - firstname: ["Mashrur", "M."]
+
 "he":
-  - firstname: ["Ying", "Y."]
+  - firstname: ["Yexiao", "Y."]
+  - firstname: ["Shwai", "S."]
 
 "tian":
-  - firstname: ["Boyu", "B."]
+  - firstname: ["Bowei", "B."]
 
 "wang":
-  - firstname: ["Zhe", "Z."]
+  - firstname: ["Ziyao", "Z."]
+  - firstname: ["Hongyi", "H."]
 
 "li":
   - firstname: ["Ang", "A."]
+  - firstname: ["Gen", "G."]
 
 "ma":
-  - firstname: ["Xing", "X."]
+  - firstname: ["Xiaolong", "X."]
 
 "hu":
-  - firstname: ["Yue", "Y."]
+  - firstname: ["Yaowei", "Y."]
 
 "gauch":
   - firstname: ["Susan", "S."]
+
+"ji":
+  - firstname: ["Jie", "J."]
+
+"shen":
+  - firstname: ["Zheyu", "Z."]
+
+"sun":
+  - firstname: ["Guoheng", "G."]
+
+"ye":
+  - firstname: ["Wanghao", "W."]
+
+"liu":
+  - firstname: ["Meng", "M."]
 
 "du":
   - firstname: ["Yajuan", "Y."]

@@ -45,24 +45,24 @@ cv:
     Selected Publications:
       - title: "SHED: Shapley-Based Automated Dataset Refinement for Instruction Fine-Tuning"
         authors:
-          - Ying He
-          - Zhe Wang
-          - Zhe Shen
-          - Guanhua Sun
+          - Yexiao He
+          - Ziyao Wang
+          - Zheyu Shen
+          - Guoheng Sun
           - Yucong Dai
           - Yongkai Wu
-          - Hao Wang
+          - Hongyi Wang
           - Ang Li
         publisher: NeurIPS 2024
         releaseDate: 2024
 
       - title: "Towards Counterfactual Fairness through Auxiliary Variables"
         authors:
-          - Boyu Tian
-          - Zhe Wang
-          - Shuo He
-          - Wei Ye
-          - Guanhua Sun
+          - Bowei Tian
+          - Ziyao Wang
+          - Shwai He
+          - Wanghao Ye
+          - Guoheng Sun
           - Yucong Dai
           - Yongkai Wu
           - Ang Li
@@ -72,16 +72,16 @@ cv:
       - title: "Fair Weak-Supervised Learning: A Multiple-Instance Learning Approach"
         authors:
           - Yucong Dai
-          - Xuan Jiang
-          - Yue Hu
-          - Liang Zhang
+          - Xiangyu Jiang
+          - Yaowei Hu
+          - Lu Zhang
           - Yongkai Wu
         publisher: IJCNN 2024
         releaseDate: 2024
 
       - title: "Fair Selection through Kernel Density Estimation"
         authors:
-          - Xuan Jiang
+          - Xiangyu Jiang
           - Yucong Dai
           - Yongkai Wu
         publisher: IJCNN 2023
